@@ -182,6 +182,7 @@
     function showToast(msg) {
       toast.textContent = msg;
       toast.classList.add('show');
+      clearTimeout(toastTimer);
     }
   </body>
 </html>
